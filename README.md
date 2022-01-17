@@ -5,4 +5,4 @@ This is a project working with solidity and ethers.js to make a portal that allo
 
 ### The NFT
 I know this isn't the most visually attractive NFT but I had a good time making it hehe
-<img src="https://storage.opensea.io/files/8608beebd7bbeaa210dbd9a456a303c0.svg" />
+<img src="https://storage.opensea.io/files/8608beebd7bbeaa210dbd9a456a303c0.svg" width="350" />
