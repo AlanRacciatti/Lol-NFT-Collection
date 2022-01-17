@@ -51,7 +51,7 @@
   background: -webkit-linear-gradient(left, #60c657, #35aee2);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
-  margin: 0 10px;
+  margin: 5px 10px;
 }
 
 .mint-button {
@@ -73,6 +73,7 @@
 
 .footer-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 30px;
@@ -138,15 +139,37 @@
   border-radius: 20px;
 }
 
-.twitter-container {
+.footer-container-small {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5px 0;
+}
+
+.github-logo {
+  font-size: 20px;
+  color: white;
+  margin-right: 5px;
 }
 
 .fake-eth {
   text-align: left;
   align-self: left;
+}
+
+@media (min-width: 720px) {
+  .connect-wallet-button {
+    margin: 0 10px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+  }
+
+  .footer-container-small {
+    margin: 0;
+  }
+
 }
 
 /* KeyFrames */

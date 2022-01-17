@@ -7,11 +7,15 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const FooterContainer = () => {
     return (
         <div className="footer-container">
-          <div className='twitter-container'>
-            <img alt="ETH Logo" className="eth-logo" src={etherLogo} />
+          <div className='footer-container-small'>
+            <img alt="Ethereum Logo" className="eth-logo" src={etherLogo} />
             <a className="footer-text fake-eth" href='https://faucets.chain.link/rinkeby' target="_blank" rel="noreferrer">Need some fake ETH?</a>
           </div>
-          <div className='twitter-container'>
+          <div className='footer-container-small'>
+            <i className="fab fa-github github-logo"></i>
+            <a className="footer-text" href="https://github.com/AlanRacciatti/lol-nft-collection" target="_blank" rel="noreferrer">Github</a>
+          </div>
+          <div className='footer-container-small'>
             <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
             <a className="footer-text" href={TWITTER_LINK} target="_blank" rel="noreferrer">{`Built by @${TWITTER_HANDLE}`}</a>
           </div>

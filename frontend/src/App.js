@@ -4,7 +4,7 @@ import { ethers } from 'ethers';
 import myEpicNft from './utils/MyEpicNFT.json'
 
 import switchToRinkebyNetwork from './functions/switchToRinkebyNetwork';
-import redirectToOpensea from './functions/redirectToOpensea';
+import {redirectToOpensea} from './functions/redirectToOpensea';
 import {alertMetamask, alertCantMint} from './functions/swals';
 
 import NotConnectedContainer from './components/NotConnectedContainer';
@@ -17,7 +17,7 @@ import Header from './components/Header';
 
 const App = () => {
 
-  const CONTRACT_ADDRESS = "0x123ac9B28FdcF65F7c7B9E01512074576Cc48dC6";
+  const CONTRACT_ADDRESS = "0x90a850917D186f6ccCeBa8fdE29Ce1E32AD28aB0";
 
   const mintNftBtn = useRef(null);
 
