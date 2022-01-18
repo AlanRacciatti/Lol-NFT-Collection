@@ -1,9 +1,5 @@
 # League of legends NFT collection
 
-### Project status
-
-Right now I'm not actively working on this project, however, I might change some things anytime
-
 ### Welcome!
 This is a project working with solidity and ethers.js to make a portal that allows user to mint an NFT. At first you'll can see two folders, the first one is the backend with the smart contract and the second one the react app, feel free to check them both :)
 
@@ -136,6 +132,9 @@ I've used League of Legends champions, however, you can change to whatever you w
 ```
 
 ## About the project
+
+### Project status
+Right now I'm not actively working on this project, however, I might change some things anytime
 
 ### Contributing
 
