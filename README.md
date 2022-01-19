@@ -5,6 +5,13 @@
 ### Welcome!
 This is a project working with solidity and ethers.js to make a portal that allows user to mint an NFT. At first you'll can see two folders, the first one is the backend with the smart contract and the second one the react app, feel free to check them both :)
 
+### Table of contents
+
+- [The NFT](#the-nft)
+- [Frontend](#frontend)
+- [Backend](#backend)
+- [About the project](#about-the-project)
+
 ### The NFT
 I know this isn't the most visually attractive NFT but I had a good time making it hehe
 #
