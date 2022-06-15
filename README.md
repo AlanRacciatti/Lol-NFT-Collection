@@ -9,7 +9,7 @@ This is a project working with solidity and ethers.js to make a portal that allo
 
 - [The NFT](#the-nft)
 - [Frontend](#frontend)
-- [Backend](#backend)
+- [Smart contract](#smart-contract)
 - [About the project](#about-the-project)
 
 ### The NFT
@@ -57,7 +57,7 @@ const App = () => {
 
 - Update the JSON  in the **Utils** folder (you get this from your artifacts folder of the smart contract).
 
-## Backend
+## Smart contract
 
 ### Installation and usage
 
